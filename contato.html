@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>UNES - Contato</title>
+		<meta charset="utf-8">
+	</head>
+
+	<body background="imagens/fundo2.png">
+
+		<table border="0" width="900" align="center"> 
+			
+			<tr>
+				<td height="89"><img src="imagens/logo.png"></td>
+				<td align="right">
+					<a href="index.html">Início</a>
+					 | <a href="quemsomos.html">Quem somos</a> | <a href="contato.html">Contato</a>
+				</td>
+				<tr>
+					
+				</tr>
+		
+				<td colspan="2">
+					<h2>Entre em contato</h2>
+					<p>
+						Com quase cinco décadas e mais de 500 mil alunos, a Estácio é um dos maiores e mais respeitados grupos do setor educacional do Brasil. 
+					</p>
+					<hr>
+					<form>
+
+						Seu nome:<br>
+						<input type="text" name="nome:"><br>
+						
+						Seu e-mail:<br>
+						<input type="text" name="e-mail:"><br>
+
+						Telefone:<br>
+						<input type="text" name="telefone:"><br>
+
+						Assunto:<br>
+						<input type="text" name="assunto:" placeholder=""><br>
+
+						Descrição:<br>
+						<textarea></textarea><br>
+
+						Estados:<br>
+		    		<select name="estado">
+		    			<option value="sp">SP</option>
+		    			<option value="es">ES</option>
+		    			<option value="mg">MG</option>
+		    			<option value="rj">RJ</option>
+		    			<option value="go">GO</option>
+		    			<option value="ba">BA</option>
+		    		</select><br><br>
+
+		    		<form action="processa_arquivo.php" method="post" enctype="multipart/form-data">
+    <label>Documento: <input type="file" name="image"></label>
+    <input type="submit" value="Submit">
+</form>
+<style type="text/css">
+	.buttan{
+		border-radius: 100px;
+		font-size: 17px;
+		background-color: green;
+		border: transparent;
+
+
+	}
+	
+	</style>
+						<input type="submit" value="ENVIAR"placeholder="carregar" class="buttan">
+
+
+					</form>
+
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<h4>Todos os direitos reseverdos	&#174;</h4>	
+					
+				</td>
+			</tr>
+		</table>
+
+	</body>
+</html>
